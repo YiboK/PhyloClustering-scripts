@@ -1,5 +1,8 @@
 # PhyloClustering scripts
 
+## Repo Description
+This repo contains all scripts for testing models in [PhyloClustering.jl](https://github.com/solislemuslab/PhyloClustering.jl). All scripts in Python and Julia are writing in [Jupyter](http://jupyter.org) notebook.
+
 ## File Description
 ### Julia 
 **4-taxa-tree-simulate.ipynb**: Simulates 4-taxon trees and 4-taxon network in bipartition format. Writes simulated trees into csv files. We set seeds for simulations so it can generate consistent trees.
@@ -18,4 +21,4 @@
 
 **biopython-ete-dendropy.ipynb**
 
-**bipartition-embedding.ipynb**: transforms trees from Newick format into bipartition format.
+**bipartition-embedding.ipynb**: Transforms trees from Newick format into bipartition format.
