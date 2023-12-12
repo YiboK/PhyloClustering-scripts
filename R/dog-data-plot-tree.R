@@ -46,3 +46,40 @@ for (i in 1:length(trees)){
   trees[[i]] = reroot(trees[[i]], which(trees[[i]]$tip.label=="1"))
 }
 write.tree(trees, file='./dog-data/sample_200k_rooted.trees') 
+
+trees <- read.tree("../../baobabs/kmeans_1.trees")
+for (i in 1:length(trees)){
+  trees[[i]] = reroot(trees[[i]], which(trees[[i]]$tip.label=="Adi001"))
+}
+write.tree(trees, file="../../baobabs/kmeans_rooted_1.trees") 
+
+trees <- read.tree("../../baobabs/kmeans_2.trees")
+for (i in 1:length(trees)){
+  
+  trees[[i]] = reroot(trees[[i]], which(trees[[i]]$tip.label=="Adi001"))
+}
+write.tree(trees, file="../../baobabs/kmeans_rooted_2.trees") 
+
+
+trees <- read.tree("../../baobabs/hc_1.trees")
+for (i in 1:length(trees)){
+  
+  trees[[i]] = reroot(trees[[i]], which(trees[[i]]$tip.label=="Adi001"))
+}
+write.tree(trees, file="../../baobabs/hc_rooted_1.trees") 
+
+
+trees <- read.tree("../../baobabs/hc_2.trees")
+for (i in 1:length(trees)){
+  
+  trees[[i]] = reroot(trees[[i]], which(trees[[i]]$tip.label=="Adi001"))
+}
+write.tree(trees, file="../../baobabs/hc_rooted_2.trees") 
+
+
+trees <- read.tree("../../baobabs/trees.trees")
+for (i in 1:length(trees)){
+  
+  trees[[i]] = reroot(trees[[i]], which(trees[[i]]$tip.label=="Adi001"))
+}
+write.tree(trees, file="../../baobabs/trees.trees") 
