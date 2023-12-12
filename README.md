@@ -1,8 +1,7 @@
-# PhyloClustering
+# PhyloClustering scripts
 
-## Data
-
-From `ransanec` project: baseline, n6, n10 and n15 depending on the number of leaves.
+## Repo Description
+This repo contains all scripts for testing models in [PhyloClustering.jl](https://github.com/solislemuslab/PhyloClustering.jl). All scripts in Python and Julia are writing in [Jupyter](http://jupyter.org) notebook.
 
 ## File Description
 ### Julia 
@@ -22,4 +21,4 @@ From `ransanec` project: baseline, n6, n10 and n15 depending on the number of le
 
 **biopython-ete-dendropy.ipynb**
 
-**bipartition-embedding.ipynb**: transforms trees from Newick format into bipartition format.
+**bipartition-embedding.ipynb**: Transforms trees from Newick format into bipartition format.
