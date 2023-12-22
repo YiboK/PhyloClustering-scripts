@@ -19,6 +19,10 @@ The scripts **hc-nni-heatmap.ipynb** and **plot-heatmap.ipynb** contain codes to
 
 
 ## File Description
+**8-taxa.trees**: All 8-taxon tree templates we used to simulate trees.
+
+**16-taxa.trees**: All 16-taxon tree templates we used to simulate trees.
+
 ### Julia 
 **4-taxa-tree-simulate.ipynb**: Simulate 4-taxon trees and 4-taxon network in bipartition format. Writes simulated trees into csv files.
 
@@ -55,6 +59,8 @@ The scripts **hc-nni-heatmap.ipynb** and **plot-heatmap.ipynb** contain codes to
 **clutering-check-python.ipynb**: Check performance of models (K-mean, GMM, and spectral clustering)
 
 **data-clean.ipynb**(Deprecated): Change names of taxa from Canis species to numbers.
+
+**final-figure.ipynb**: Plot all the figures in the paper.
 
 **hc-nni-heatmap.ipynb**: Visualize the results of hierarchical clustering and NNI tests.
 
