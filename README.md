@@ -19,9 +19,9 @@ The scripts **hc-nni-heatmap.ipynb** and **plot-heatmap.ipynb** contain codes to
 
 
 ## File Description
-**8-taxa.trees**: All 8-taxon tree templates we used to simulate trees.
+**NNI-tree-templates.trees**: 8-taxon and 16-taxon tree templates we used to simulate trees in NNI tests.
 
-**16-taxa.trees**: All 16-taxon tree templates we used to simulate trees.
+**16-taxa.trees**: 8-taxon and 16-taxon tree templates we used to simulate trees in all other tests.
 
 ### Julia 
 **4-taxa-tree-simulate.ipynb**: Simulate 4-taxon trees and 4-taxon network in bipartition format. Writes simulated trees into csv files.
