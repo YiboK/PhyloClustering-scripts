@@ -42,6 +42,8 @@ The scripts **hc-nni-heatmap.ipynb** and **plot-heatmap.ipynb** contain codes to
 
 **hierarchical-clustering.ipynb**: Implement and tests hierarchical clustering.
 
+**imbalance-and-comparison.ipynb**：Test split-weight embedding on imbalanced dataset, compare it with RF distance in terms of running time, memory cost, and accuracy.
+
 **nni-move-check.ipynb**: Test K-means and hierarchical clustering on trees with 0-5 NNIs.
 
 **number-to-name.ipynb**(Deprecated): Change names of taxa from numbers to Canis species.
