@@ -62,5 +62,5 @@ for i in 1:100
         tree = CSV.read(path, DataFrame)
         push!(trees, tree)
     end
-    hc_matrix(trees, "result/hc/hc_4_diff_topo_500_" * string(i) * ".csv")
+    rep_kmeans_matrix(trees, "result/hc/hc_4_diff_topo_500_" * string(i) * ".csv")
 end
